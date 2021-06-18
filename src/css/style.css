@@ -1,0 +1,65 @@
+body {
+	margin: 0px;
+}
+@font-face {
+  font-family: garetbook;
+  src: url(garetbook.ttf);
+}
+@font-face {
+	font-family: garetheavy;
+	src: url(garetheavy.ttf);
+}
+#main {
+	display: block;
+	text-align: center;
+}
+.article-title {
+	font-family: garetbook;
+	font-size: 40px;
+}
+hr {
+	border-top: 2px solid #ddd;
+	border-left: 0px;
+	border-right: 0px;
+	border-bottom: 0px;
+	width: 100px;
+}
+#img-div {
+	margin-top: 40px;
+}
+#image {
+	width: 800px;
+	height: 400px;
+	border-radius: 10px;
+	box-shadow: 0px 0px 12px 8px #f9f9f9;
+}
+#img-caption {
+	font-family: garetbook;
+	font-size: small;
+	color: gray;
+}
+ul {
+  list-style: none;
+  font-family: garetbook;
+}
+li {
+	margin: 20px;
+}
+#tribute-info {
+	width: 60%;
+}
+.footer {
+	background: #ddd;
+	font-family: garetbook;
+	padding: 16px;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+}
+@media only screen and (max-width: 600px) {
+	#image {
+		width: 400px;
+		height: 200px;
+	}
+}
